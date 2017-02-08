@@ -24,10 +24,9 @@ See [azu/markdown-review-tool: Markdown review tool](https://github.com/azu/mark
       --open  Open New issue link with --repo
 
     Examples
-      $ pbpaste | markdown-review-to-issue --from "/path/to/fixtures/" --to baseURL "https://github.com/example/exmple/blob/master/fixtures/"
+      $ pbpaste | markdown-review-to-issue --from "/path/to/fixtures/" --to "https://github.com/example/exmple/blob/master/fixtures/"
       
-      $ pbpaste | markdown-review-to-issue --from "/path/to/fixtures/" --to baseURL "https://github.com/example/exmple/blob/master/fixtures/" --repo "asciidwango/js-primer" --open
-
+      $ pbpaste | markdown-review-to-issue --from "/path/to/fixtures/" --to "https://github.com/example/exmple/blob/master/fixtures/" --repo "asciidwango/js-primer" --open
 
 ## Changelog
 
