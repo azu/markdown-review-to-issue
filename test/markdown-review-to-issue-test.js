@@ -21,7 +21,7 @@ describe("reviewToIssue", () => {
             }
         };
         const content = reviewToIssue(reviewdata, {
-            fromPath: "/Users/azu/.ghq/github.com/azu/markdown-review-tool/packges/markdown-review-to-issue/test/fixtures/",
+            fromPath: path.join(__dirname, "fixtures") +"/",
             toPath: "https://github.com/asciidwango/js-primer/blob/master/source/basic/array/"
         });
         assert.deepEqual(content, `> この章では、配列の基本的な操作と配列を扱う場合においてのパターンについて学びます。
