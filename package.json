@@ -10,7 +10,7 @@
     "src/"
   ],
   "name": "markdown-review-to-issue",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Markdown review data to issue ",
   "main": "lib/markdown-review-to-issue.js",
   "bin": {
